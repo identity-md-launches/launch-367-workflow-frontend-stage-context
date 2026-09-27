@@ -1,0 +1,18 @@
+
+> points-lab@1.0.0 test:browser
+> node tests/browser.mjs
+
+PASS Disconnected live reads, leaderboard and points events
+PASS Keyboard skip link and focus
+PASS Wrong chain → switch → 4902 add exact chain → switch again
+PASS Input errors focus the field; excessive precision and insufficient balance blocked
+PASS Native buy quote includes wallet hookData; simulation and direct router submission
+PASS Sell requires exact PNTS approval then fresh quote then swap
+PASS Wallet rejection and simulation failure show recovery; no failed broadcast
+PASS Account and chain changes invalidate quotes
+PASS Expired quotes disable confirmation
+PASS Desktop / mobile / intermediate reflow, axe and reduced motion
+PASS Missing wallet and empty states
+PASS Missing contract code blocks actions, then recovers
+PASS Wrong RPC chain blocks actions
+PASS Tampered ABI fails closed

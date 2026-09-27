@@ -1,0 +1,98 @@
+{
+  "startedAt": "2026-09-27T07:13:00.315Z",
+  "urlPath": "/preview/",
+  "tests": [
+    {
+      "name": "Disconnected live reads, leaderboard and points events",
+      "result": "passed"
+    },
+    {
+      "name": "Keyboard skip link and focus",
+      "result": "passed"
+    },
+    {
+      "name": "Wrong chain → switch → 4902 add exact chain → switch again",
+      "result": "passed"
+    },
+    {
+      "name": "Input errors focus the field; excessive precision and insufficient balance blocked",
+      "result": "passed"
+    },
+    {
+      "name": "Native buy quote includes wallet hookData; simulation and direct router submission",
+      "result": "passed"
+    },
+    {
+      "name": "Sell requires exact PNTS approval then fresh quote then swap",
+      "result": "passed"
+    },
+    {
+      "name": "Wallet rejection and simulation failure show recovery; no failed broadcast",
+      "result": "passed"
+    },
+    {
+      "name": "Account and chain changes invalidate quotes",
+      "result": "passed"
+    },
+    {
+      "name": "Expired quotes disable confirmation",
+      "result": "passed"
+    },
+    {
+      "name": "Desktop / mobile / intermediate reflow, axe and reduced motion",
+      "result": "passed"
+    },
+    {
+      "name": "Missing wallet and empty states",
+      "result": "passed"
+    },
+    {
+      "name": "Missing contract code blocks actions, then recovers",
+      "result": "passed"
+    },
+    {
+      "name": "Wrong RPC chain blocks actions",
+      "result": "passed"
+    },
+    {
+      "name": "Tampered ABI fails closed",
+      "result": "passed"
+    }
+  ],
+  "consoleErrors": [],
+  "resourceFailures": [],
+  "screenshots": [
+    "keyboard-focus.png",
+    "mock-1440.png",
+    "mock-820.png",
+    "mock-390.png",
+    "mock-320.png"
+  ],
+  "contrast": [
+    {
+      "selector": ".primary",
+      "foreground": "rgb(38, 51, 35)",
+      "background": "rgb(215, 237, 151)",
+      "ratio": 10.409957138988023
+    },
+    {
+      "selector": ".intro-copy",
+      "foreground": "rgb(83, 97, 75)",
+      "background": "rgb(244, 243, 236)",
+      "ratio": 5.937852617181112
+    },
+    {
+      "selector": ".label",
+      "foreground": "rgb(83, 97, 75)",
+      "background": "rgb(244, 243, 236)",
+      "ratio": 5.937852617181112
+    },
+    {
+      "selector": ".panel",
+      "foreground": "rgb(38, 51, 35)",
+      "background": "rgb(252, 252, 248)",
+      "ratio": 12.921484066929338
+    }
+  ],
+  "result": "passed"
+}

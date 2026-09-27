@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-09-27T06:59:46.620Z",
+  "sourceCommit": "ba53f7b17a228179769e3d139e36d3fa82f778d4",
+  "poolId": "0x002c5751b9c403edd9ba1c32e24488212b5291578d50381d9cb81ed4f7f58f25",
+  "broadcastTransactions": false,
+  "chainAndCode": "passed",
+  "contractCodeBytes": {
+    "Points": 1753,
+    "SwapPointsHook": 4335,
+    "PoolSwapTest": 6950,
+    "poolManager": 24009,
+    "quoter": 5820,
+    "stateView": 3531
+  },
+  "state": {
+    "block": "11791694",
+    "timestamp": 1790492388,
+    "fetched": 1790492392167,
+    "slot": [
+      "560227709747861399187319382274582",
+      177284,
+      0,
+      3000
+    ],
+    "liquidity": "0",
+    "board": [],
+    "end": 1791093984,
+    "decimals": 18,
+    "symbol": "PNTS",
+    "buyRate": "10000",
+    "sellRate": "5000",
+    "multiplier": "2",
+    "points": "0",
+    "tokenBalance": "0",
+    "ethBalance": "0",
+    "allowance": "0"
+  },
+  "quotes": [
+    {
+      "buy": true,
+      "amount": "1000000000000000",
+      "result": [
+        "49627085152468411915572",
+        "143479"
+      ]
+    },
+    {
+      "buy": false,
+      "amount": "1000000000000000000000",
+      "error": "ContractFunctionExecutionError: The contract function \"quoteExactInputSingle\" reverted with the following signature:\n0x6190b2b0\n\nUnable to decode signature \"0x6190b2b0\" as it was not found on the provided ABI.\nMake sure you are using the correct ABI and that the error exists on it.\nYou can look up the decoded signature here: https://4byte.sourcify.dev/?q=0x6190b2b0.\n \nContract Call:\n  address:   0x61b3f2011a92d183c7dbadbda940a7555ccf9227\n  function:  quoteExactInputSingle(((address currency0, address currency1, uint24 fee, int24 tickSpacing, address hooks), bool zeroForOne, uint128 exactAmount, bytes hookData))\n  args:                           ({\"poolKey\":{\"currency0\":\"0x0000000000000000000000000000000000000000\",\"currency1\":\"0x718f5354974e2947047f353a65b000a61b75fbf2\",\"fee\":3000,\"tickSpacing\":60,\"hooks\":\"0x44fcfb45453906a9468698ea051e7dbfdeac9040\"},\"zeroForOne\":false,\"exactAmount\":\"1000000000000000000000\",\"hookData\":\"0x0000000000000000000000001111111111111111111111111111111111111111\"})\n\nDocs: https://viem.sh/docs/contract/decodeErrorResult\nDetails: execution reverted\nVersion: viem@2.47.6"
+    }
+  ],
+  "events": {
+    "fromBlock": "11791428",
+    "toBlock": "11791694",
+    "logs": []
+  }
+}

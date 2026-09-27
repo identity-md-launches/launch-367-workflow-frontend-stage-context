@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-09-27T07:13:14.242Z",
+  "consoleErrors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320
+    }
+  ],
+  "liveReadStatus": "Updated at block 11791761\nRefresh data ↻",
+  "body": "Pool price\n50,000,000 PNTS / ETH\nFrom Uniswap StateView\nYour points\n— pts\nConnect a wallet to see your score\nLaunch multiplier\n2× active\n6d 22h 53m 13s\nDouble points in the first 7 days",
+  "missingWallet": "passed",
+  "snapshot": "- link \"Skip to content\":\n  - /url: \"#main\"\n- banner:\n  - link \"Points Lab home\":\n    - /url: \"#main\"\n    - text: points / lab\n  - button \"Connect wallet\"\n- main:\n  - region \"Small swaps. A few more points.\":\n    - paragraph: Experiment 001 · Uniswap v4\n    - heading \"Small swaps. A few more points.\" [level=1]\n    - paragraph: Explore an on-chain rewards experiment. Swap Sepolia ETH and PNTS, collect points, and watch the leaderboard.\n  - text: Just an experiment Test tokens and points have no value. No rewards or returns are promised.\n  - region \"Pool overview\":\n    - text: Pool price\n    - strong: 50,000,000 PNTS / ETH\n    - text: From Uniswap StateView Your points\n    - strong: — pts\n    - text: Connect a wallet to see your score Launch multiplier 2× active\n    - strong: 6d 22h 53m 12s\n    - text: Double points in the first 7 days\n  - text: Updated at block 11791761\n  - button \"Refresh data\"\n  - region \"Swap & collect\":\n    - paragraph: Make a move\n    - heading \"Swap & collect\" [level=2]\n    - group \"Swap direction\":\n      - button \"Buy PNTS\" [pressed]\n      - button \"Sell PNTS\"\n    - text: You pay\n    - textbox \"You pay\":\n      - /placeholder: \"0.00\"\n    - text: ETH\n    - paragraph: \"Balance: Connect wallet\"\n    - text: Estimated receive\n    - strong: — PNTS\n    - text: Price movement limit\n    - textbox \"Price movement limit\": \"0.5\"\n    - text: \"%\"\n    - paragraph: Caps the pool’s ending price movement. This test router can partially fill a swap and has no minimum-output or deadline guarantee.\n    - alert\n    - button \"Connect wallet to swap\"\n    - status\n    - alert: No browser wallet found. Install an Ethereum browser wallet, then reload this page.\n    - text: Pool fee 0.3% No hook fee\n  - region \"The top ten\":\n    - paragraph: On the board\n    - heading \"The top ten\" [level=2]\n    - text: On-chain\n    - paragraph: A little friendly competition. Points stay with each address, and earlier entries win ties.\n    - table \"Top ten wallets ranked by earned points\":\n      - caption: Top ten wallets ranked by earned points\n      - rowgroup:\n        - row \"Rank Wallet Points\":\n          - columnheader \"Rank\"\n          - columnheader \"Wallet\"\n          - columnheader \"Points\"\n      - rowgroup\n    - heading \"The board is open.\" [level=3]\n    - paragraph: Make a swap to put your address here.\n    - text: Scores are read directly from the hook’s top10 view.\n  - region \"Recent points\":\n    - paragraph: Straight from the hook\n    - heading \"Recent points\" [level=2]\n    - text: Latest 2,000 blocks · up to 8 awards\n    - paragraph: No point awards in this block range. The next credited swap will show up here.\n  - paragraph: The rules are simple\n  - heading \"Trade a little. Learn a little.\" [level=2]\n  - paragraph: Buy with 0.001 ETH to earn 10 points. Sell for 0.001 ETH to earn 5. Both rates double during the pool’s first seven days.\n  - paragraph: Points are separate from PNTS tokens. They cannot be transferred or redeemed. Anyone can credit any address through unauthenticated hookData, and round trips can farm points at the cost of pool fees and gas.\n  - link \"Get Sepolia test ETH\":\n    - /url: https://cloud.google.com/application/web3/faucet/ethereum/sepolia\n  - group: Explore the deployment\n- contentinfo:\n  - text: points / lab A Sepolia test toy. Nothing here promises a return.\n  - link \"Uniswap deployments\":\n    - /url: https://docs.uniswap.org/contracts/v4/deployments#sepolia-11155111",
+  "result": "completed"
+}

@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-09-27T07:13:14.242Z",
+  "consoleErrors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320
+    }
+  ],
+  "liveReadStatus": "Updated at block 11791761\nRefresh data ↻",
+  "body": "Pool price\n50,000,000 PNTS / ETH\nFrom Uniswap StateView\nYour points\n— pts\nConnect a wallet to see your score\nLaunch multiplier\n2× active\n6d 22h 53m 13s\nDouble points in the first 7 days",
+  "missingWallet": "passed",
+  "result": "completed"
+}

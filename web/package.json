@@ -1,0 +1,32 @@
+{
+  "name": "points-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build && node scripts/export.mjs",
+    "preview": "vite preview",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:browser": "node tests/browser.mjs",
+    "check:export": "node scripts/check-export.mjs",
+    "check:live": "node --import tsx scripts/check-live.ts"
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "viem": "2.47.6"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.1",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.4",
+    "playwright": "1.58.2",
+    "prettier": "^3.8.1",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.1"
+  }
+}

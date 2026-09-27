@@ -1,0 +1,7 @@
+{
+  "name": "PoolSwapTest",
+  "address": "0x9b6b46e2c869aa39918db7f52f5557fe577b6eee",
+  "source": "https://docs.uniswap.org/contracts/v4/deployments#sepolia-11155111",
+  "retrieved": "2026-09-27",
+  "note": "Assignment explicitly specifies PoolSwapTest. This published address supplements the immutable network block, which omits this test router. All approvals target this router directly; quotes and StateView use the pinned network addresses."
+}

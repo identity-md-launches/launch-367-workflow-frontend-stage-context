@@ -1,0 +1,12 @@
+{
+  "method": "Final temporary isolated clone + allowed deliverables + validation-only commit + git bundle create --all; source repository untouched",
+  "bundleBytes": 1940952,
+  "limitBytes": 8388608,
+  "withinBudget": true,
+  "scopeCheck": "All new files within web/, docs/, dist/",
+  "originalTrackedFilesChanged": [],
+  "dependencyOrCacheArtifacts": false,
+  "submodules": false,
+  "sourceRepositoryCommit": "Not created: .git is read-only",
+  "note": "Only this small evidence record was refreshed after measurement. Temporary bundle and clone removed."
+}

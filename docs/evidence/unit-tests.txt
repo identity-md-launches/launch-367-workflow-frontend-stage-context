@@ -1,0 +1,18 @@
+
+> points-lab@1.0.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ ABI canonical hashes match attested deployment (12.390223ms)
+✔ Amounts preserve wei and reject excessive precision, scientific notation and negatives (1.205993ms)
+✔ Price limits are directional and conservative; packed signed deltas survive (1.208092ms)
+✔ hookData encodes exactly one wallet; countdown ends exactly at boundary (0.848642ms)
+✔ Manifest paths reject traversal and URL schemes (0.370601ms)
+✔ Unknown chain adds exact supplied parameters and switches again; rejection never adds (3.059635ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 552.789399

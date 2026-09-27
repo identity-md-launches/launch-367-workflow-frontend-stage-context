@@ -1,0 +1,17 @@
+
+> points-lab@1.0.0 build
+> vite build && node scripts/export.mjs
+
+vite v7.3.1 building client environment for production...
+transforming...
+✓ 428 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.90 kB │ gzip:   0.53 kB
+../dist/assets/index-BcgP449F.css   13.49 kB │ gzip:   3.52 kB
+../dist/assets/ccip-BdbRbNCV.js      2.61 kB │ gzip:   1.23 kB
+../dist/assets/index-CMnyjQpb.js   487.84 kB │ gzip: 152.21 kB
+✓ built in 2.78s
+Verified Points: f36d2fe28b62f817a4fba0b78bb501b41895eada3982280273c063ad8183f577
+Verified SwapPointsHook: f8145fe5ae5bc987368ef49732151e583128fa8033f698e7a1d177c4f6338d5a
+Export manifest: 9 hashed assets

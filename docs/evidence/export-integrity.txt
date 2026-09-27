@@ -1,0 +1,11 @@
+
+> points-lab@1.0.0 check:export
+> node scripts/check-export.mjs
+
+{
+  "passed": true,
+  "assets": 9,
+  "exportBytes": 527601,
+  "networkUnchanged": true,
+  "contractsMatch": true
+}
